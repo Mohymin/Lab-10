@@ -13,5 +13,4 @@ class testSelectionSort {
 	SelectionSort sort = new SelectionSort();
 
 
-
 }
