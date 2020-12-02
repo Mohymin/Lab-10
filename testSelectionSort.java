@@ -14,7 +14,6 @@ class testSelectionSort {
 		testMixed();
 	  testDuplicates();
 
-
 	}
 	SelectionSort sort = new SelectionSort();
 	@Test
@@ -24,7 +23,6 @@ class testSelectionSort {
          sort.basicSelectionSort(arr);
          assert(Arrays.equals(arr,res));
      }
-
 
 	public void testPositive(){
 	        int[] arr = new int[]{8,9,7,10,2};
@@ -41,7 +39,6 @@ class testSelectionSort {
 	        assert(Arrays.equals(arr,res));
 	    }
 			
-
      @Test
      public void testDuplicates(){
          int[] arr = new int[]{-8,-9,7,2,-8,2,-10,2,0};
@@ -49,6 +46,4 @@ class testSelectionSort {
          sort.basicSelectionSort(arr);
          assert(Arrays.equals(arr,res));
      }
-
-
 }
